@@ -1,0 +1,86 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f7fa;
+    text-align: center;
+  }
+  
+  /* Content section styling */
+  .login-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Title and description styling */
+  .login-title {
+    font-size: 2.5rem;
+    color: #00796b;
+    margin-bottom: 1rem;
+  }
+  
+  .login-description {
+    font-size: 1.2rem;
+    color: #004d40;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button styling */
+  .auth-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signin-btn {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signin-btn:hover {
+    background-color: #004d40; /* Darker teal */
+  }
+  
+  .navigate-btn {
+    background-color: #004d40; /* Darker teal */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .navigate-btn:hover {
+    background-color: #00332a; /* Even darker teal */
+  }
+  
+  .user-btn {
+    background-color: #00796b; /* Teal color */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-btn:hover {
+    background-color: #004d40; 
+  }
+  

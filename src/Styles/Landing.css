@@ -1,0 +1,109 @@
+/* Landing.css */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.intro-section {
+  margin-bottom: 3rem;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+.logo-icon {
+  font-size: 3rem;
+  color: #ff7e5f; /* Example color, adjust as needed */
+}
+
+.main-title {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.highlight {
+  color: #feb47b; /* Highlight color */
+}
+
+.description {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  max-width: 600px; /* Limit text width for better readability */
+}
+
+.cta-button .signin-button {
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button .signin-button:hover {
+  background-color: #feb47b;
+}
+
+.features-section {
+  width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.features-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.feature-item {
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.feature-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.feature-description {
+  margin-top: 1rem;
+}
+
+.feature-description h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.feature-description p {
+  font-size: 1rem;
+}
